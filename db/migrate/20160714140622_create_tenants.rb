@@ -1,4 +1,4 @@
-class CreateTenants < ActiveRecord::Migration
+class CreateTenants < ActiveRecord::Migration[4.2]
   def change
     create_table :tenants do |t|
       t.references :tenant, index: true, foreign_key: true

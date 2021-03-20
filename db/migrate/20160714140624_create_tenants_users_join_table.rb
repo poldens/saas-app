@@ -1,4 +1,4 @@
-class CreateTenantsUsersJoinTable < ActiveRecord::Migration
+class CreateTenantsUsersJoinTable < ActiveRecord::Migration[4.2]
   def change
     create_join_table :tenants, :users do |t|
       t.index [:tenant_id, :user_id]

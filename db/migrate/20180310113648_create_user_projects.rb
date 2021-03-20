@@ -1,4 +1,4 @@
-class CreateUserProjects < ActiveRecord::Migration
+class CreateUserProjects < ActiveRecord::Migration[4.2]
   def change
     create_table :user_projects do |t|
       t.belongs_to :project, index: true, foreign_key: true
