@@ -28,7 +28,7 @@ gem 'sdoc', '~> 2.0', '>= 2.0.4'
 gem "twitter-bootstrap-rails"
 gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails'
-gem 'bootstrap-sass', '3.3.6'
+gem 'bootstrap-sass', '3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
